@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
+
 body {
   background-color: #03fc94;
+}
+
+.card {
+  background-color: violet;
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+h2 {
+  position: relative;
+font-family: 'Archivo', sans-serif;
+text-align: center;
+top: 50%;
+user-select: none;
 }
