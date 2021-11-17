@@ -10,6 +10,7 @@ body {
   height: 100px;
   border-radius: 10px;
   cursor: pointer;
+  margin-right: 25px;
 }
 
 h2 {
@@ -18,4 +19,8 @@ font-family: 'Archivo', sans-serif;
 text-align: center;
 top: 50%;
 user-select: none;
+}
+
+#game-buttons {
+  display: inline-flex;
 }
