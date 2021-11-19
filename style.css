@@ -11,16 +11,39 @@ body {
   border-radius: 10px;
   cursor: pointer;
   margin-right: 25px;
+  margin-top: 25px;
 }
 
 h2 {
   position: relative;
 font-family: 'Archivo', sans-serif;
 text-align: center;
-top: 50%;
+top: 40%;
 user-select: none;
 }
 
-#game-buttons {
+.game-buttons {
   display: inline-flex;
+  flex-wrap: wrap;
 }
+
+h1 {
+  font-family: 'Archivo', sans-serif;
+}
+
+img {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: violet;
+}
+
+::-webkit-scrollbar-track {
+  background: #03fc94;
+}
+
