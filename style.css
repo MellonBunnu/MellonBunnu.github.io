@@ -40,11 +40,11 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: oldlace;
+  background: lightseagreen;
 }
 
 ::-webkit-scrollbar-track {
-  background: lightseagreen;
+  background: oldlace;
 }
 
 #credits{
