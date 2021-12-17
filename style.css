@@ -73,3 +73,8 @@ a:active {
 .smaller-text {
   font-size: small;
 }
+
+h3{
+  position:relative;
+  top:10%;
+}
