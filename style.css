@@ -14,7 +14,7 @@ body {
   margin-top: 25px;
 }
 
-h2 {
+h2, h3 {
   position: relative;
 font-family: 'Archivo', sans-serif;
 text-align: center;
