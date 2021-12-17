@@ -49,7 +49,7 @@ img {
 
 #credits{
   position: absolute;
-  bottom: 0;
+  bottom: -25vh;
   margin-left: auto;
 margin-right: auto;
 left: 0;
