@@ -29,6 +29,8 @@ user-select: none;
 
 h1, p {
   font-family: 'Archivo', sans-serif;
+  cursor: default;
+  user-select: none;
 }
 
 img {
