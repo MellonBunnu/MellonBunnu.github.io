@@ -18,7 +18,7 @@ h2 {
   position: relative;
 font-family: 'Archivo', sans-serif;
 text-align: center;
-top: 40%;
+top: 25%;
 user-select: none;
 }
 
@@ -68,4 +68,8 @@ a:visited {
 
 a:active {
   color: black;
+}
+
+.smaller-text {
+  font-size: small;
 }
