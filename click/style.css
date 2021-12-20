@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.cookies2 {
+  display: inline;
+}
+
+#theCookie {
+  transition: transform .2s;
+  margin: auto;
+}
+
+#theCookie:hover {
+  transform: scale(1.1);
+}
+
+a {
+  transition: 0.7s;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #333;
+}
