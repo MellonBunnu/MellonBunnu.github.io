@@ -9,7 +9,7 @@ function reset() {
 }
 
 function clicker(){
-  clickamount = clickamount + autoclickers
+  clickamount = clickamount + autoclickers;
   document.getElementById("clicker").innerHTML = clickamount;
 }
 
