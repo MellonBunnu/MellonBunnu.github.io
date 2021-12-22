@@ -1,3 +1,4 @@
+var autoclickers = 0;
 var clickamount = 0;
 function buttonpress() {
   document.getElementById("button").innerHTML ="you clicked me!";
@@ -8,19 +9,23 @@ function reset() {
 }
 
 function clicker(){
-  clickamount++;
+  clickamount = clickamount + autoclickers;
   document.getElementById("clicker").innerHTML = clickamount;
 }
 
 function autoclicker(){
-  var intervalID = setInterval(clicker, 1000, 'Parameter 1', 'Parameter 2');
+  if (autoclickers == 0) {
+    var intervalID = setInterval(clicker, 1000, 'Parameter 1', 'Parameter 2');
+  }
+else {
+  autoclickers++;
+}
 }
 
 function buyac() 
 {
 if(clickamount > 49) {
   autoclicker();
-  document.getElementById("acbuy").innerHTML ="sold out!";
   }
 else 
 {
@@ -30,10 +35,3 @@ else
 }, 2000);
 }
 }
-
-
-
-
-
-
-
