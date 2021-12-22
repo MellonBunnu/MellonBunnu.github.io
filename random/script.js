@@ -35,3 +35,8 @@ else
 }, 2000);
 }
 }
+
+function click() {
+  clickamount++;
+  document.getElementById("clicker").innerHTML = clickamount;
+}
