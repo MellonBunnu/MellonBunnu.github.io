@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
 
 body {
-  background-color: lightblue;
+  background-color: #1e1e1e;
 }
 
 .card {
-  background-color: lightcoral;
+  background-color: #1e1e1e;
   width: 250px;
   height: 100px;
   border-radius: 10px;
   cursor: pointer;
   margin-right: 25px;
   margin-top: 25px;
+  filter: drop-shadow(0 0 10px black);
 }
 
 h2, h3 {
@@ -20,6 +21,7 @@ font-family: 'Archivo', sans-serif;
 text-align: center;
 top: 25%;
 user-select: none;
+color: white;
 }
 
 .game-buttons {
@@ -30,6 +32,7 @@ user-select: none;
 h1, p {
   font-family: 'Archivo', sans-serif;
   cursor: default;
+  color: white;
   user-select: none;
 }
 
@@ -42,31 +45,32 @@ img {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: lightseagreen;
+  background: white;
 }
 
 ::-webkit-scrollbar-track {
-  background: oldlace;
+  background: #1e1e1e;
 }
 
 #credits{
-position: absolute; 
-bottom: 5px; 
+visibility: hidden;
+position: absolute;
+bottom: 5px;
 margin-left: auto;
 margin-right: auto;
 
 }
 
 a:link {
-  color: black;
+  color: white;
 }
 
 a:visited {
-  color: black;
+  color: white;
 }
 
 a:active {
-  color: black;
+  color: white;
 }
 
 .smaller-text {
